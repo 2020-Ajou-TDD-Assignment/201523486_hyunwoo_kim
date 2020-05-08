@@ -23,7 +23,6 @@ public class BowlingGameTest {
 		rollMany(20, 1);
 		assertEquals(20, g.score());
 	}
-	@Ignore("until we walk frame by frame")
 	@Test
 	public void testOneSpare() {
 		g.roll(5);
